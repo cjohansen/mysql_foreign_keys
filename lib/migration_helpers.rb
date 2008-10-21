@@ -14,17 +14,17 @@ module MigrationHelpers
   #
   # In the following example the column name is assumed to be address_id
   #
-  #   add_foreign_key :companies, :addresses
+  #   add_foreign_key :websites, :addresses
   #
   # The field in the receiving table is assumed to be the part of the
   # from_column after the last _. In the example above this amounts
   # to id. Another example:
   #
-  #   add_foreign_key :companies, :addresses, :location_type
+  #   add_foreign_key :websites, :addresses, :location_type
   #
   # Allthough contrived, this will result in:
   #
-  #   alter table companies add constraint [NAME] foreign_key location_type references addresses(type)
+  #   alter table websites add constraint [NAME] foreign_key location_type references addresses(type)
   #
   def add_foreign_key(from_table, to_table, from_column = nil)
     from_column ||= "#{to_table.to_s.singularize}_id"
