@@ -1,8 +1,8 @@
-require 'migration_helpers.rb'
+require 'mysql_foreign_keys.rb'
 
 #
 # Extends ActiveRecord::Migration with foreign key functionality
 #
 class ActiveRecord::Migration
-  extend MigrationHelpers
+  extend MysqlForeignKeys
 end

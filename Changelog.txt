@@ -1,2 +1,2 @@
-2008-10-12 Christian Johansen <christian@cjohansen.no>
-   * lib/migration_helpers.rb First release
+2008-10-26 Christian Johansen <christian@cjohansen.no>
+   * Initial release

@@ -1,10 +1,10 @@
 #
-# A set of helpful methods for use with migrations
+# Adds methods for adding foreign keys to MySQL tables.
 #
 # Christian Johansen (christian@ixd.no)
 # 2008-06-14
 #
-module MigrationHelpers
+module MysqlForeignKeys
 
   #
   # Add a foreign key restraint for MySQL tables.

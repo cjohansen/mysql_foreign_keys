@@ -1,17 +1,9 @@
-Migration Helpers
-#################
+MySQL Foreign Keys
+##################
 
 Add and remove foreign key restraints for MySQL tables.
 
-To use add
-  require 'migration_helpers'
-
-on top of your migration files, and then
-  extend MigrationHelpers
-
-right after the migration class definition
-
-See the lib/migration_helpers.rb file for details on usage of the methods:
+See the lib/mysql_foreign_keys.rb file for details on usage of the methods:
   add_foreign_key
   remove_foreign_key
 
@@ -19,4 +11,5 @@ Author:
   Christian Johansen
   www.cjohansen.no
 
-Released under the same license as Ruby. No Support. No Warranty.
+Released under the MIT license. No Support. No Warranty.
+Copyright (c) 2008 Christian Johansen
